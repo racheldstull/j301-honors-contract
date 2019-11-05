@@ -18,83 +18,172 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px; }
 
 nav {
-  width: 100px;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  nav .nav-top {
-    height: 10%;
-    width: 100%;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  nav .nav-main {
+    width: 100px;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
-    nav .nav-top .logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    z-index: 100; }
+    nav .nav-main .nav-top {
+      height: 10%;
       width: 100%;
-      height: 100%;
-      background-color: #C13C51;
-      padding: 20px;
-      cursor: pointer; }
-  nav .nav-middle {
-    height: 80%;
-    width: 100%; }
-    nav .nav-middle .text-wrapper {
-      width: 100%;
-      height: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      nav .nav-middle .text-wrapper p {
-        margin-left: 32px;
-        margin-top: 30px;
-        color: #444444;
-        font-size: 30px;
-        font-family: 'nagayama_kai', sans-serif;
-        font-weight: bold; }
-  nav .nav-bottom {
-    height: 10%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    nav .nav-bottom .menu-btn {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      color: #444444;
-      font-size: 30px; }
-      nav .nav-bottom .menu-btn i {
-        margin-left: 35px;
+      display: flex; }
+      nav .nav-main .nav-top .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: #C13C51;
+        padding: 20px;
         cursor: pointer; }
+        nav .nav-main .nav-top .logo a {
+          width: 100%;
+          height: 100%; }
+          nav .nav-main .nav-top .logo a img {
+            height: 100%;
+            width: 100%; }
+    nav .nav-main .nav-middle {
+      height: 80%;
+      width: 100%; }
+      nav .nav-main .nav-middle .text-wrapper {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        nav .nav-main .nav-middle .text-wrapper p {
+          margin-left: 32px;
+          margin-top: 30px;
+          color: #444444;
+          font-size: 30px;
+          font-family: 'nagayama_kai', sans-serif;
+          font-weight: bold; }
+    nav .nav-main .nav-bottom {
+      height: 10%;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      nav .nav-main .nav-bottom .menu-btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #444444;
+        font-size: 30px; }
+        nav .nav-main .nav-bottom .menu-btn i {
+          margin-left: 35px;
+          cursor: pointer; }
+  nav .nav-menu {
+    height: 100%;
+    width: 300px;
+    padding: 30px 60px;
+    position: absolute;
+    left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #ffffff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 90;
+    -webkit-box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 0px 7px 0px rgba(0, 0, 0, 0.1); }
+    nav .nav-menu .nav-menu-top {
+      height: 20%;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      text-align: right; }
+      nav .nav-menu .nav-menu-top p {
+        color: #444444;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        padding-right: 5px; }
+      nav .nav-menu .nav-menu-top a {
+        color: #444444;
+        font-size: 18px;
+        margin: 0 8px;
+        padding-top: 5px; }
+    nav .nav-menu .nav-menu-middle {
+      height: 58%;
+      width: 100%; }
+    nav .nav-menu .nav-menu-bottom {
+      height: 22%;
+      width: 100%;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      nav .nav-menu .nav-menu-bottom .nav-item {
+        padding-bottom: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        nav .nav-menu .nav-menu-bottom .nav-item .dot {
+          height: 17px;
+          width: 17px;
+          margin-top: 10px;
+          margin-right: 15px;
+          border-radius: 25px; }
+        nav .nav-menu .nav-menu-bottom .nav-item .home-dot {
+          background-color: #C13C51; }
+        nav .nav-menu .nav-menu-bottom .nav-item a {
+          color: #444444;
+          text-decoration: none;
+          font-size: 25px;
+          font-family: 'Open Sans', sans-serif; }
 
 main {
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  background: url("../images/splash3.jpg") no-repeat top fixed;
-  background-size: cover; }
+  display: flex; }
   main .home-main-wrapper {
-    width: 100%; }
+    width: 100vw;
+    width: 100%;
+    background: url("../images/splash3.jpg") no-repeat top fixed;
+    background-size: cover; }
     main .home-main-wrapper .explore-btn {
-      position: relative;
+      position: absolute;
       top: 40%;
       left: 73%; }
-      main .home-main-wrapper .explore-btn button {
+      main .home-main-wrapper .explore-btn a button {
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
@@ -103,5 +192,50 @@ main {
         padding: 10px 50px;
         background-color: #C13C51;
         cursor: pointer; }
-        main .home-main-wrapper .explore-btn button:hover {
+        main .home-main-wrapper .explore-btn a button:hover {
           background-color: #a13348; }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  main .explore-main-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    main .explore-main-wrapper .explore-left {
+      height: 100%;
+      width: 60%;
+      padding: 100px; }
+      main .explore-main-wrapper .explore-left h3 {
+        font-size: 30px;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        color: #C13C51;
+        margin-bottom: 0;
+        margin-right: 10px; }
+      main .explore-main-wrapper .explore-left h2 {
+        font-size: 40px;
+        margin-top: -8px;
+        color: #333333;
+        font-family: 'Lora', serif; }
+      main .explore-main-wrapper .explore-left p {
+        font-size: 28px;
+        color: #333333;
+        font-family: 'Open Sans', sans-serif; }
+    main .explore-main-wrapper .explore-right {
+      height: 100%;
+      width: 40%; }
+      main .explore-main-wrapper .explore-right .img {
+        width: 100%; }
+        main .explore-main-wrapper .explore-right .img img {
+          width: 100%;
+          height: 100%;
+          top: 0;
+          right: 0; }
