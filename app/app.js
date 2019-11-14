@@ -1,3 +1,6 @@
+$("nav .nav-menu").animate({
+    width: 'toggle'
+});
 
 function collapseToggle(){
     $("nav .nav-main .nav-bottom .menu-btn").click(function(){
@@ -14,6 +17,6 @@ function defaultToggle(){
 }
 
 $(document).ready(function(){
-    defaultToggle();
+    // defaultToggle();
     collapseToggle();
 });

@@ -35,6 +35,32 @@ main {
         color: $darker-gray;
         font-family: 'Open Sans', sans-serif;
       }
+
+      .content-bar {
+        padding-bottom: 25px;
+      }
+
+      .content-links {
+        margin-bottom: 80px;
+
+        p {
+          color: $red;
+          font-weight: bold;
+        }
+
+        button {
+          padding: 5px 10px;
+          border: 1px solid $red;
+          background-color: $white;
+          color: $red;
+          font-size: 20px;
+
+          &:hover {
+            background-color: $red;
+            color: $white;
+          }
+        }
+      }
     }
 
     .explore-right {
