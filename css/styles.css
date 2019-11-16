@@ -337,3 +337,56 @@ main {
           padding: 5px 5px 0 0;
           color: #444444;
           font-style: italic; }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  main .citations-main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main .citations-main-wrapper .cite-left {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 0 50px 0 100px; }
+      main .citations-main-wrapper .cite-left .citation {
+        font-family: 'Lora', serif;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        text-indent: -28px; }
+        main .citations-main-wrapper .cite-left .citation span {
+          color: #C13C51; }
+    main .citations-main-wrapper .cite-right {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 0 100px 0 50px; }
+      main .citations-main-wrapper .cite-right .citation {
+        font-family: 'Lora', serif;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        text-indent: -28px; }
+        main .citations-main-wrapper .cite-right .citation span {
+          color: #C13C51; }

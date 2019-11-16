@@ -1,0 +1,49 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  .citations-main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .cite-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 50px 0 100px;
+
+      .citation {
+        font-family: 'Lora', serif;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        text-indent: -28px;
+
+        span {
+          color: $red;
+        }
+      }
+    }
+
+    .cite-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 100px 0 50px;
+
+      .citation {
+        font-family: 'Lora', serif;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        text-indent: -28px;
+
+        span {
+          color: $red;
+        }
+      }
+    }
+  }
+}
