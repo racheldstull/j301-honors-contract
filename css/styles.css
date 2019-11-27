@@ -301,13 +301,17 @@ main {
         main .explore-main-wrapper .explore-left .content-links p {
           color: #C13C51;
           font-weight: bold; }
-        main .explore-main-wrapper .explore-left .content-links button {
+        main .explore-main-wrapper .explore-left .content-links a {
           padding: 5px 10px;
           border: 1px solid #C13C51;
           background-color: #ffffff;
           color: #C13C51;
-          font-size: 20px; }
-          main .explore-main-wrapper .explore-left .content-links button:hover {
+          font-size: 20px;
+          text-decoration: none;
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out; }
+          main .explore-main-wrapper .explore-left .content-links a:hover {
             background-color: #C13C51;
             color: #ffffff; }
     main .explore-main-wrapper .explore-right {

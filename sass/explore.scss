@@ -48,12 +48,14 @@ main {
           font-weight: bold;
         }
 
-        button {
+        a {
           padding: 5px 10px;
           border: 1px solid $red;
           background-color: $white;
           color: $red;
           font-size: 20px;
+          text-decoration: none;
+          transition: all .2s ease-in-out;
 
           &:hover {
             background-color: $red;
