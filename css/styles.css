@@ -264,7 +264,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  main .explore-main-wrapper {
+  main .explore-main-wrapper, main .element-main-wrapper {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -273,35 +273,52 @@ main {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
-    main .explore-main-wrapper .explore-left {
+    main .explore-main-wrapper .explore-left, main .explore-main-wrapper .element-left, main .element-main-wrapper .explore-left, main .element-main-wrapper .element-left {
       height: 100%;
       width: 60%;
       padding: 100px;
       margin-bottom: 100px; }
-      main .explore-main-wrapper .explore-left h3 {
+      main .explore-main-wrapper .explore-left a, main .explore-main-wrapper .element-left a, main .element-main-wrapper .explore-left a, main .element-main-wrapper .element-left a {
+        color: #C13C51;
+        font-style: italic;
+        text-decoration: none;
+        font-size: 1.4rem; }
+        main .explore-main-wrapper .explore-left a:hover, main .explore-main-wrapper .element-left a:hover, main .element-main-wrapper .explore-left a:hover, main .element-main-wrapper .element-left a:hover {
+          text-decoration: underline; }
+      main .explore-main-wrapper .explore-left h3, main .explore-main-wrapper .element-left h3, main .element-main-wrapper .explore-left h3, main .element-main-wrapper .element-left h3 {
+        padding-top: 20px;
         font-size: 30px;
         font-family: 'Sawarabi Mincho', sans-serif;
         color: #C13C51;
         margin-bottom: 0;
         margin-right: 10px; }
-      main .explore-main-wrapper .explore-left h2 {
+      main .explore-main-wrapper .explore-left h2, main .explore-main-wrapper .element-left h2, main .element-main-wrapper .explore-left h2, main .element-main-wrapper .element-left h2 {
         font-size: 40px;
         margin-top: -8px;
         color: #333333;
         font-weight: bold;
         font-family: 'Lora', serif; }
-      main .explore-main-wrapper .explore-left p {
+      main .explore-main-wrapper .explore-left p, main .explore-main-wrapper .element-left p, main .element-main-wrapper .explore-left p, main .element-main-wrapper .element-left p {
         font-size: 25px;
         color: #333333;
         font-family: 'Open Sans', sans-serif; }
-      main .explore-main-wrapper .explore-left .content-bar {
+      main .explore-main-wrapper .explore-left .content-bar, main .explore-main-wrapper .element-left .content-bar, main .element-main-wrapper .explore-left .content-bar, main .element-main-wrapper .element-left .content-bar {
         padding-bottom: 25px; }
-      main .explore-main-wrapper .explore-left .content-links {
-        margin-bottom: 80px; }
-        main .explore-main-wrapper .explore-left .content-links p {
+        main .explore-main-wrapper .explore-left .content-bar span, main .explore-main-wrapper .element-left .content-bar span, main .element-main-wrapper .explore-left .content-bar span, main .element-main-wrapper .element-left .content-bar span {
           color: #C13C51;
           font-weight: bold; }
-        main .explore-main-wrapper .explore-left .content-links a {
+        main .explore-main-wrapper .explore-left .content-bar p a, main .explore-main-wrapper .element-left .content-bar p a, main .element-main-wrapper .explore-left .content-bar p a, main .element-main-wrapper .element-left .content-bar p a {
+          color: #C13C51;
+          font-style: italic;
+          text-decoration: none; }
+          main .explore-main-wrapper .explore-left .content-bar p a:hover, main .explore-main-wrapper .element-left .content-bar p a:hover, main .element-main-wrapper .explore-left .content-bar p a:hover, main .element-main-wrapper .element-left .content-bar p a:hover {
+            text-decoration: underline; }
+      main .explore-main-wrapper .explore-left .content-links, main .explore-main-wrapper .element-left .content-links, main .element-main-wrapper .explore-left .content-links, main .element-main-wrapper .element-left .content-links {
+        margin-bottom: 80px; }
+        main .explore-main-wrapper .explore-left .content-links p, main .explore-main-wrapper .element-left .content-links p, main .element-main-wrapper .explore-left .content-links p, main .element-main-wrapper .element-left .content-links p {
+          color: #C13C51;
+          font-weight: bold; }
+        main .explore-main-wrapper .explore-left .content-links a, main .explore-main-wrapper .element-left .content-links a, main .element-main-wrapper .explore-left .content-links a, main .element-main-wrapper .element-left .content-links a {
           padding: 5px 10px;
           border: 1px solid #C13C51;
           background-color: #ffffff;
@@ -311,13 +328,13 @@ main {
           -webkit-transition: all .2s ease-in-out;
           -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out; }
-          main .explore-main-wrapper .explore-left .content-links a:hover {
+          main .explore-main-wrapper .explore-left .content-links a:hover, main .explore-main-wrapper .element-left .content-links a:hover, main .element-main-wrapper .explore-left .content-links a:hover, main .element-main-wrapper .element-left .content-links a:hover {
             background-color: #C13C51;
             color: #ffffff; }
-    main .explore-main-wrapper .explore-right {
+    main .explore-main-wrapper .explore-right, main .explore-main-wrapper .element-right, main .element-main-wrapper .explore-right, main .element-main-wrapper .element-right {
       height: 100%;
       width: 40%; }
-      main .explore-main-wrapper .explore-right .img {
+      main .explore-main-wrapper .explore-right .img, main .explore-main-wrapper .element-right .img, main .element-main-wrapper .explore-right .img, main .element-main-wrapper .element-right .img {
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -329,14 +346,14 @@ main {
         -webkit-box-align: end;
         -ms-flex-align: end;
         align-items: flex-end; }
-        main .explore-main-wrapper .explore-right .img img {
+        main .explore-main-wrapper .explore-right .img img, main .explore-main-wrapper .element-right .img img, main .element-main-wrapper .explore-right .img img, main .element-main-wrapper .element-right .img img {
           width: 100%;
           height: 100%;
           top: 0;
           right: 0; }
-        main .explore-main-wrapper .explore-right .img i {
+        main .explore-main-wrapper .explore-right .img i, main .explore-main-wrapper .element-right .img i, main .element-main-wrapper .explore-right .img i, main .element-main-wrapper .element-right .img i {
           font-size: 10px; }
-        main .explore-main-wrapper .explore-right .img a {
+        main .explore-main-wrapper .explore-right .img a, main .explore-main-wrapper .element-right .img a, main .element-main-wrapper .explore-right .img a, main .element-main-wrapper .element-right .img a {
           font-size: 12px;
           padding: 5px 5px 0 0;
           color: #444444;
