@@ -260,7 +260,7 @@ main {
 
 main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -278,12 +278,12 @@ main {
       width: 60%;
       padding: 100px;
       margin-bottom: 100px; }
-      main .explore-main-wrapper .explore-left a, main .explore-main-wrapper .element-left a, main .element-main-wrapper .explore-left a, main .element-main-wrapper .element-left a {
+      main .explore-main-wrapper .explore-left .back, main .explore-main-wrapper .element-left .back, main .element-main-wrapper .explore-left .back, main .element-main-wrapper .element-left .back {
         color: #C13C51;
         font-style: italic;
         text-decoration: none;
         font-size: 1.4rem; }
-        main .explore-main-wrapper .explore-left a:hover, main .explore-main-wrapper .element-left a:hover, main .element-main-wrapper .explore-left a:hover, main .element-main-wrapper .element-left a:hover {
+        main .explore-main-wrapper .explore-left .back:hover, main .explore-main-wrapper .element-left .back:hover, main .element-main-wrapper .explore-left .back:hover, main .element-main-wrapper .element-left .back:hover {
           text-decoration: underline; }
       main .explore-main-wrapper .explore-left h3, main .explore-main-wrapper .element-left h3, main .element-main-wrapper .explore-left h3, main .element-main-wrapper .element-left h3 {
         padding-top: 20px;
@@ -313,6 +313,11 @@ main {
           text-decoration: none; }
           main .explore-main-wrapper .explore-left .content-bar p a:hover, main .explore-main-wrapper .element-left .content-bar p a:hover, main .element-main-wrapper .explore-left .content-bar p a:hover, main .element-main-wrapper .element-left .content-bar p a:hover {
             text-decoration: underline; }
+        main .explore-main-wrapper .explore-left .content-bar h4, main .explore-main-wrapper .element-left .content-bar h4, main .element-main-wrapper .explore-left .content-bar h4, main .element-main-wrapper .element-left .content-bar h4 {
+          font-size: 2.5rem;
+          font-style: italic;
+          color: #C13C51;
+          padding-top: 20px; }
       main .explore-main-wrapper .explore-left .content-links, main .explore-main-wrapper .element-left .content-links, main .element-main-wrapper .explore-left .content-links, main .element-main-wrapper .element-left .content-links {
         margin-bottom: 80px; }
         main .explore-main-wrapper .explore-left .content-links p, main .explore-main-wrapper .element-left .content-links p, main .element-main-wrapper .explore-left .content-links p, main .element-main-wrapper .element-left .content-links p {
@@ -358,6 +363,71 @@ main {
           padding: 5px 5px 0 0;
           color: #444444;
           font-style: italic; }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  main .elements-main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main .elements-main-wrapper .elements-left, main .elements-main-wrapper .elements-center, main .elements-main-wrapper .elements-right {
+      width: 33%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      main .elements-main-wrapper .elements-left .title-bar, main .elements-main-wrapper .elements-center .title-bar, main .elements-main-wrapper .elements-right .title-bar {
+        padding-top: 80px; }
+        main .elements-main-wrapper .elements-left .title-bar h3, main .elements-main-wrapper .elements-center .title-bar h3, main .elements-main-wrapper .elements-right .title-bar h3 {
+          padding-top: 20px;
+          font-size: 30px;
+          font-family: 'Sawarabi Mincho', sans-serif;
+          color: #C13C51;
+          margin-bottom: 0;
+          margin-right: 10px; }
+        main .elements-main-wrapper .elements-left .title-bar h2, main .elements-main-wrapper .elements-center .title-bar h2, main .elements-main-wrapper .elements-right .title-bar h2 {
+          font-size: 40px;
+          margin-top: -8px;
+          color: #333333;
+          font-weight: bold;
+          font-family: 'Lora', serif;
+          padding-bottom: 30px; }
+      main .elements-main-wrapper .elements-left .element-nav, main .elements-main-wrapper .elements-center .element-nav, main .elements-main-wrapper .elements-right .element-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        main .elements-main-wrapper .elements-left .element-nav a, main .elements-main-wrapper .elements-center .element-nav a, main .elements-main-wrapper .elements-right .element-nav a {
+          font-family: 'Lora', serif;
+          font-size: 2.5rem;
+          color: #333333;
+          text-decoration: none;
+          padding-bottom: 20px;
+          -webkit-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out; }
+          main .elements-main-wrapper .elements-left .element-nav a:hover, main .elements-main-wrapper .elements-center .element-nav a:hover, main .elements-main-wrapper .elements-right .element-nav a:hover {
+            color: #C13C51; }
+        main .elements-main-wrapper .elements-left .element-nav .disabled:hover, main .elements-main-wrapper .elements-center .element-nav .disabled:hover, main .elements-main-wrapper .elements-right .element-nav .disabled:hover {
+          color: rgba(74, 74, 74, 0.63); }
+    main .elements-main-wrapper .elements-left {
+      padding: 0 50px 0 100px; }
+    main .elements-main-wrapper .elements-center {
+      padding: 230px 0 0 0; }
+    main .elements-main-wrapper .elements-right {
+      padding: 230px 100px 0 50px; }
 
 main {
   width: 100vw;
