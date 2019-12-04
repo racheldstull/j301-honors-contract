@@ -301,7 +301,9 @@ main {
       main .explore-main-wrapper .explore-left p, main .explore-main-wrapper .element-left p, main .element-main-wrapper .explore-left p, main .element-main-wrapper .element-left p {
         font-size: 25px;
         color: #333333;
-        font-family: 'Open Sans', sans-serif; }
+        font-family: 'Open Sans', sans-serif;
+        line-height: 40px;
+        padding-bottom: 6px; }
       main .explore-main-wrapper .explore-left .content-bar, main .explore-main-wrapper .element-left .content-bar, main .element-main-wrapper .explore-left .content-bar, main .element-main-wrapper .element-left .content-bar {
         padding-bottom: 25px; }
         main .explore-main-wrapper .explore-left .content-bar span, main .explore-main-wrapper .element-left .content-bar span, main .element-main-wrapper .explore-left .content-bar span, main .element-main-wrapper .element-left .content-bar span {
@@ -336,6 +338,8 @@ main {
           main .explore-main-wrapper .explore-left .content-links a:hover, main .explore-main-wrapper .element-left .content-links a:hover, main .element-main-wrapper .explore-left .content-links a:hover, main .element-main-wrapper .element-left .content-links a:hover {
             background-color: #C13C51;
             color: #ffffff; }
+    main .explore-main-wrapper .element-left, main .element-main-wrapper .element-left {
+      width: 65%; }
     main .explore-main-wrapper .explore-right, main .explore-main-wrapper .element-right, main .element-main-wrapper .explore-right, main .element-main-wrapper .element-right {
       height: 100%;
       width: 40%; }
@@ -362,7 +366,10 @@ main {
           font-size: 12px;
           padding: 5px 5px 0 0;
           color: #444444;
-          font-style: italic; }
+          font-style: italic;
+          margin-bottom: 40px; }
+    main .explore-main-wrapper .element-right, main .element-main-wrapper .element-right {
+      width: 35%; }
 
 main {
   width: 100vw;

@@ -46,6 +46,8 @@ main {
         font-size: 25px;
         color: $darker-gray;
         font-family: 'Open Sans', sans-serif;
+        line-height: 40px;
+        padding-bottom: 6px;
       }
 
       .content-bar {
@@ -102,6 +104,10 @@ main {
       }
     }
 
+    .element-left {
+      width: 65%;
+    }
+
     .explore-right, .element-right {
       height: 100%;
       width: 40%;
@@ -128,8 +134,13 @@ main {
           padding: 5px 5px 0 0;
           color: $gray;
           font-style: italic;
+          margin-bottom: 40px;
         }
       }
+    }
+
+    .element-right {
+      width: 35%;
     }
   }
 }
