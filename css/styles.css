@@ -317,11 +317,26 @@ main {
           text-decoration: none; }
           main .explore-main-wrapper .explore-left .content-bar p a:hover, main .explore-main-wrapper .element-left .content-bar p a:hover, main .element-main-wrapper .explore-left .content-bar p a:hover, main .element-main-wrapper .element-left .content-bar p a:hover {
             text-decoration: underline; }
-        main .explore-main-wrapper .explore-left .content-bar h4, main .explore-main-wrapper .element-left .content-bar h4, main .element-main-wrapper .explore-left .content-bar h4, main .element-main-wrapper .element-left .content-bar h4 {
-          font-size: 2.5rem;
-          font-style: italic;
-          color: #C13C51;
-          padding-top: 20px; }
+      main .explore-main-wrapper .explore-left .img-line, main .explore-main-wrapper .element-left .img-line, main .element-main-wrapper .explore-left .img-line, main .element-main-wrapper .element-left .img-line {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        main .explore-main-wrapper .explore-left .img-line .img-item, main .explore-main-wrapper .element-left .img-line .img-item, main .element-main-wrapper .explore-left .img-line .img-item, main .element-main-wrapper .element-left .img-line .img-item {
+          width: 100px; }
+          main .explore-main-wrapper .explore-left .img-line .img-item img, main .explore-main-wrapper .element-left .img-line .img-item img, main .element-main-wrapper .explore-left .img-line .img-item img, main .element-main-wrapper .element-left .img-line .img-item img {
+            width: 100%;
+            margin: 5px; }
+          main .explore-main-wrapper .explore-left .img-line .img-item p, main .explore-main-wrapper .element-left .img-line .img-item p, main .element-main-wrapper .explore-left .img-line .img-item p, main .element-main-wrapper .element-left .img-line .img-item p {
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+            font-style: italic;
+            text-align: center; }
+      main .explore-main-wrapper .explore-left h4, main .explore-main-wrapper .element-left h4, main .element-main-wrapper .explore-left h4, main .element-main-wrapper .element-left h4 {
+        font-size: 2.5rem;
+        font-style: italic;
+        color: #C13C51;
+        padding-top: 20px; }
       main .explore-main-wrapper .explore-left .content-links, main .explore-main-wrapper .element-left .content-links, main .element-main-wrapper .explore-left .content-links, main .element-main-wrapper .element-left .content-links {
         margin-bottom: 80px; }
         main .explore-main-wrapper .explore-left .content-links p, main .explore-main-wrapper .element-left .content-links p, main .element-main-wrapper .explore-left .content-links p, main .element-main-wrapper .element-left .content-links p {
@@ -429,6 +444,12 @@ main {
           transition: all .2s ease-in-out; }
           main .elements-main-wrapper .elements-left .element-nav a:hover, main .elements-main-wrapper .elements-center .element-nav a:hover, main .elements-main-wrapper .elements-right .element-nav a:hover {
             color: #C13C51; }
+        main .elements-main-wrapper .elements-left .element-nav h4, main .elements-main-wrapper .elements-center .element-nav h4, main .elements-main-wrapper .elements-right .element-nav h4 {
+          font-family: 'Lora', serif;
+          font-size: 2.5rem;
+          color: #333333;
+          font-style: italic;
+          margin-bottom: 20px; }
         main .elements-main-wrapper .elements-left .element-nav .disabled:hover, main .elements-main-wrapper .elements-center .element-nav .disabled:hover, main .elements-main-wrapper .elements-right .element-nav .disabled:hover {
           color: rgba(74, 74, 74, 0.63); }
     main .elements-main-wrapper .elements-left {
